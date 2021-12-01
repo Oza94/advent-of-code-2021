@@ -1,8 +1,6 @@
 const fs = require("fs");
 const path = require("path");
 
-console.log("AOC #2");
-
 const data = fs.readFileSync(path.resolve(__dirname, "./input"), "utf-8");
 
 const increases = data
